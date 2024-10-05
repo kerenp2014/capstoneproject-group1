@@ -1,0 +1,19 @@
+{
+  "name": "capstoneproject-group1",
+  "version": "1.0.0",
+  "description": "A simple Express server",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  }
+}
