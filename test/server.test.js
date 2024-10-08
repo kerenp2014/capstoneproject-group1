@@ -10,7 +10,7 @@ describe('GET /', () => {
       .expect(200)
       .end((err, res) => {
         if (err) return done(err);
-        expect(res.text).to.equal('Hello, World from Keren!');
+        expect(res.text).to.equal('Hello, World from Group 1!');
         done();
       });
   });
