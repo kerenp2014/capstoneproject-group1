@@ -3,7 +3,7 @@ import express from 'express';
 const server = express();
 
 // Define the port number
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 9090;
 
 // Basic route
 server.get('/', (req, res) => {
