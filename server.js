@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 9090;
 
 // Basic route
 server.get('/', (req, res) => {
-  res.send('Hello, World from Keren!');
+  res.send('Hello, World from Group 1!');
 });
 
 // Start the server
